@@ -41,3 +41,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Exclude documentation files (keep only README.md)
+DANH_GIA_DU_AN.md
+KIEM_THU_TU_DONG.md
+FIREBASE_SETUP.md
+FIX_AUTHENTICATION.md
+HUONG_DAN_*.md
+PROJECT_*.md
+QUICKSTART.md
+SETUP_GUIDE.md
+START_HERE.md
+THAY_DOI_MOI_NHAT.md
