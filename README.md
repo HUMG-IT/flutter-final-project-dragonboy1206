@@ -357,33 +357,8 @@ lib/
 | Widgets | 80% | ✅ |
 | Screens | 70% | ⚠️ (Firebase screens skipped) |
 
-## 6. Quá trình phát triển
 
-### Giai đoạn 1: Setup & Core Features (Ngày 1-2)
-- Khởi tạo Flutter project
-- Setup Firebase (Authentication + Firestore)
-- Tạo data models (Note, User)
-- Implement CRUD cơ bản
-
-### Giai đoạn 2: UI/UX & State Management (Ngày 3-4)
-- Thiết kế UI với Material Design 3
-- Implement Provider pattern
-- Home screen với grid layout
-- Add/Edit note screen
-
-### Giai đoạn 3: Advanced Features (Ngày 5-6)
-- Firebase Authentication integration
-- Guest mode với local storage
-- Auto-sync khi login
-- Search & filter functionality
-
-### Giai đoạn 4: Testing & Documentation (Ngày 7)
-- Viết 56 test cases
-- Fix bugs & edge cases
-- Tạo tài liệu hướng dẫn
-- Chuẩn bị video demo
-
-## 7. Các vấn đề gặp phải và giải pháp
+## 6. Các vấn đề gặp phải và giải pháp
 
 ### ⚠️ Vấn đề 1: Firestore Query Error
 **Lỗi**: `Invalid query. You must not call Query.orderBy() if you already specified an equal filter`
@@ -435,45 +410,8 @@ Future<void> signInWithEmail(String email, String password) async {
 }
 ```
 
-## 8. Screenshots
 
-### Home Screen - Guest Mode
-- Danh sách ghi chú với grid layout
-- Sync status: "Chế độ khách (không đồng bộ)"
-- Search bar, Add button
-
-### Add/Edit Note Screen
-- 2 TextFields (title, content)
-- 8 color picker buttons
-- Save button (check icon) ở AppBar
-
-### Login Screen
-- Email/Password fields
-- Login button
-- "Đăng ký ngay" link
-
-### Demo Features
-- Create note → hiển thị trong danh sách
-- Search "test" → filter results
-- Swipe left → delete button
-- Pin note → move to top
-- Login → sync status "Đã đồng bộ"
-
-## 9. Video Demo
-
-1. **Video kiểm thử tự động** (bắt buộc):
-   - Chạy `flutter test`
-   - Kết quả: 56/56 tests passed
-   - Duration: ~5 giây
-   
-2. **Video demo chức năng** (bắt buộc):
-   - Guest mode: CRUD operations
-   - Login → auto sync
-   - Search & filter
-   - Swipe to delete
-   - Duration: ~3 phút
-
-## 10. Kết luận
+## 7. Kết luận
 
 ### Mức độ hoàn thành: ✅ 95%
 
