@@ -2,9 +2,9 @@
 # Bài tập lớn - Phát triển ứng dụng với Flutter
 
 ## Thông tin sinh viên
-- **Họ và tên**: [Điền tên sinh viên]
-- **MSSV**: [Điền MSSV]
-- **Lớp**: [Điền lớp]
+- **Họ và tên**: Hoàng Long Vũ
+- **MSSV**: 2221050553
+- **Lớp**: DTCTCLC67A
 
 ---
 
@@ -488,12 +488,6 @@ Future<void> signInWithEmail(String email, String password) async {
 - ✅ Pin notes
 - ✅ Color themes
 
-#### Có thể cải thiện:
-- ⚠️ Test coverage cho Firebase screens (cần mock phức tạp)
-- ⚠️ GitHub Actions CI/CD (có thể gặp billing issues)
-- 🔄 Thêm tính năng: Categories, Tags, Rich text editor
-- 🔄 Dark mode support
-- 🔄 Export/Import notes
 
 ### Tự đánh giá: **8-9/10 điểm**
 
@@ -507,12 +501,3 @@ Future<void> signInWithEmail(String email, String password) async {
 
 ---
 
-## 📞 Liên hệ & Hỗ trợ
-
-- **Repository**: https://github.com/HUMG-IT/flutter-final-project-dragonboy1206
-- **Issues**: Tạo issue trên GitHub nếu gặp vấn đề
-- **Email**: [Điền email sinh viên]
-
----
-
-Chúc các bạn hoàn thành tốt bài tập lớn và khám phá thêm nhiều kiến thức bổ ích qua dự án này! 🚀
